@@ -1,14 +1,14 @@
-import { MuidlePage } from './app.po';
+import {MuidlePage} from './app.po';
 
-describe('muidle App', function() {
-  let page: MuidlePage;
+describe('muidle App', function () {
+	let page:MuidlePage;
 
-  beforeEach(() => {
-    page = new MuidlePage();
-  });
+	beforeEach(() => {
+		page = new MuidlePage();
+	});
 
-  it('should display message saying app works', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toEqual('muidle works!');
-  });
+	it('should display message saying app works', () => {
+		page.navigateTo();
+		expect(page.getParagraphText()).toEqual('muidle works!');
+	});
 });

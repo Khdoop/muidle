@@ -1,2 +1,2 @@
 export * from './environment';
-export * from './muidle.component';
+export * from './app.component';
