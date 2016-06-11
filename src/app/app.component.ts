@@ -3,6 +3,7 @@ import {Routes, ROUTER_DIRECTIVES, ROUTER_PROVIDERS, Router} from '@angular/rout
 
 import {NavbarComponent} from './navbar/navbar.component';
 import {AboutComponent} from './about/about.component';
+import {GameComponent} from './game/game.component';
 
 
 @Component({
@@ -13,6 +14,7 @@ import {AboutComponent} from './about/about.component';
 	providers: [ROUTER_PROVIDERS]
 })
 @Routes([
+	{path: '/', component: GameComponent},
 	{path: '/about', component: AboutComponent},
 ])
 export class AppComponent {
